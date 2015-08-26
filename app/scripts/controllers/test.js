@@ -7,13 +7,13 @@
  * # AboutCtrl
  * Controller of the angularBootstrapTestApp
  */
-angular.module('angularMapudo')
-  .controller('AboutCtrl', function ($scope) {
+var app = angular.module('angularMapudo');
+
+app.controller('TestCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma',
-      'About'
+      'Test'
     ];
-    $scope.test = 'hoooi';
   });

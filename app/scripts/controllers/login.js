@@ -2,18 +2,17 @@
 
 /**
  * @ngdoc function
- * @name angularBootstrapTestApp.controller:AboutCtrl
+ * @name angularBootstrapTestApp.controller:LoginCtrl
  * @description
- * # AboutCtrl
+ * # LoginCtrl
  * Controller of the angularBootstrapTestApp
  */
 angular.module('angularMapudo')
-  .controller('AboutCtrl', function ($scope) {
-    $scope.awesomeThings = [
+  .controller('LoginCtrl', function () {
+    this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma',
-      'About'
+      'login'
     ];
-    $scope.test = 'hoooi';
   });
