@@ -8,5 +8,5 @@
  */
 angular.module('angularMapudo')
   .controller('ContactCtrl', function ($scope) {
-    $scope.test = 'hoooi';
+    $scope.test = 'hihih';
   });
