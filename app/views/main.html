@@ -1,21 +1,38 @@
 <div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
+  <h1>Placeholder for all the widgets</h1>
+  
   <ul>
- 
         <!-- Here we use the AngularJS directive: ng-repeat to loop through our awesomeThings 
         and print them out as list items using the {{}} bindings -->
-        <li ng-repeat="thing in awesomeThings">{{thing}}</li>
+        Test a list of AngularData
+        <li ng-repeat="thing in mainAwesomeThings">{{thing}}</li>
     </ul>
-  <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
 </div>
 
-<div class="firstchart">
-  <canvas id="line" class="chart chart-line" data="data"
-    labels="labels" legend="true" series="series"
-    click="onClick">
-  </canvas> 
-</div> 
+ <div class="separator" style="height:50px"></div>
+
+<div class="nav-tabs-custom">
+<!-- Tabs within a box -->
+  <ul class="nav nav-tabs pull-right" ng-init="tab = 1">
+    <li class="active"><a href ng-click="tab = 1" data-toggle="tab">Views</a></li>
+    <li><a href ng-click="tab = 2" data-toggle="tab">Following Users</a></li>
+    <li><a href ng-click="tab = 3" data-toggle="tab">Likes</a></li>
+    <li><a href ng-click="tab = 4" data-toggle="tab">Comments</a></li>
+    <li class="pull-left header"><span class="glyphicon glyphicon-signal"></span> History Chart</li>
+  </ul>
+  <br>
+  
+  <div class="views-chart" ng-show="tab ===1">
+    <canvas id="bar" class="chart chart-bar" data="dataViews"
+      labels="labels">
+    </canvas> 
+  </div>
+  <div class="following-users-chart" ng-show="tab === 2">
+    <canvas id="bar" class="chart chart-bar" data="dataFollowingUsers"
+      labels="labels">
+    </canvas> 
+  </div> 
+  <div class="likes-chart" ng-show="tab === 3">tab 333</div> 
+  <div class="comments-chart" ng-show="tab === 4">tab 4444444</div> 
+
+</div><!-- /.nav-tabs-custom -->

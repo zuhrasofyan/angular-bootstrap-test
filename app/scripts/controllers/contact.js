@@ -6,7 +6,7 @@
  * # AboutCtrl
  * Controller of the angularBootstrapTestApp
  */
-angular.module('angularMapudo')
+angular.module('angularMain')
   .controller('ContactCtrl', function ($scope) {
     $scope.test = 'hihih';
   });

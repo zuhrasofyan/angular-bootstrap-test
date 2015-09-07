@@ -9,7 +9,7 @@
  * Main module of the application.
  */
 angular
-  .module('angularMapudo', [
+  .module('angularMain', [
     'ngAnimate',
     'ngCookies',
     'ngResource',

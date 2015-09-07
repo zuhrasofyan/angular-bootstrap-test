@@ -7,7 +7,7 @@
  * # AboutCtrl
  * Controller of the angularBootstrapTestApp
  */
-angular.module('angularMapudo')
+angular.module('angularMain')
   .controller('AboutCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
