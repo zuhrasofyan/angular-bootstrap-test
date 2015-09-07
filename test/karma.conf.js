@@ -23,6 +23,7 @@ module.exports = function(config) {
     files: [
       // bower:js
       'app/bower_components/jquery/dist/jquery.js',
+      'app/bower_components/AdminLTE/dist/js/app.js',
       'app/bower_components/angular/angular.js',
       'app/bower_components/angular-animate/angular-animate.js',
       'app/bower_components/Chart.js/Chart.js',

@@ -7,7 +7,7 @@
  * # LoginCtrl
  * Controller of the angularBootstrapTestApp
  */
-angular.module('angularMapudo')
+angular.module('angularMain')
   .controller('LoginCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',

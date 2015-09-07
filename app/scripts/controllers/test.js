@@ -7,7 +7,7 @@
  * # AboutCtrl
  * Controller of the angularBootstrapTestApp
  */
-var app = angular.module('angularMapudo');
+var app = angular.module('angularMain');
 
 app.controller('TestCtrl', function ($scope) {
     $scope.awesomeThings = [
